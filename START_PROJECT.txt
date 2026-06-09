@@ -1,0 +1,11 @@
+1. Open Administrator CMD
+
+2. Start PostgreSQL
+
+"C:\Program Files\PostgreSQL\18\bin\pg_ctl.exe" start -D "C:\Program Files\PostgreSQL\18\data"
+
+3. Open normal CMD
+
+cd C:\Air_Tracker_Project
+
+streamlit run app.py
